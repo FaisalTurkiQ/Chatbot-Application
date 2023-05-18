@@ -4,7 +4,7 @@ from tkinter import messagebox
 import openai
 
 def toChatGPT(message):
-    openai.api_key = "API KEY"
+    openai.api_key = "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"
     messages = [{"role": "system", "content": message}]
     #messages.append({"role": "system", "content": "You are an teacher"})
     completion = openai.ChatCompletion.create(
