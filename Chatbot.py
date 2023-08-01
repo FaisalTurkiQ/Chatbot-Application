@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "api_key"
 
 while (True):
     msg = input("ME : ")
